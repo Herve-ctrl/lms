@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const app = express();
 
 // Middlewares
-// use morgan with the 'dev' format string (previously used an undefined variable `dev`)
+
 app.use(morgan('dev'));
 // parse JSON and urlencoded bodies
 app.use(express.json());
